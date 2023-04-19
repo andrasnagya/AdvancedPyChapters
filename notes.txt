@@ -1,0 +1,23 @@
+Get Method Resolution order for class C
+  class C():
+    pass
+
+  print(C.__mro__)
+  print(C.mro())
+
+  as far as i know MRO on python 3.x is the same as py 2.3 
+    https://www.python.org/download/releases/2.3/mro/
+
+  you should be able to still visualize class inharitance 
+    https://stackoverflow.com/questions/26568976/python-class-inheritance-tree
+    
+Get python bindigs for c / c++ libs
+  turorial:
+    https://realpython.com/python-bindings-overview/#python-bindings-overview
+  docs:
+    https://docs.python.org/3/library/ctypes.html
+  interesting topics:
+    overload python keywords from C? is it possible?
+      - the "usually true" problems 
+   
+ 

@@ -1,0 +1,11 @@
+<structures>
+    <structure name="Stock">
+        <field type="SizedRegex" maxlen="8" pattern="'[A-Z]+$'">name</field>
+        <field type="PositiveInteger">shares</field>
+        <field type="PositiveFloat">price</field>
+    </structure>
+    <structure name="Address">
+        <field type="String">hostname</field>
+        <field type="Integer">port</field>
+    </structure>
+</structures>
